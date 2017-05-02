@@ -8,8 +8,4 @@ gem "rails-controller-testing", group: :test
 gem 'pg'
 gem 'mysql2'
 
-group :development, :test do
-  gem "pry-rails"
-end
-
 gem 'rspec-rails', '~> 3.4'
