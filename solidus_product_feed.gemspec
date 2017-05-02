@@ -1,0 +1,27 @@
+# encoding: UTF-8
+
+Gem::Specification.new do |s|
+  s.platform    = Gem::Platform::RUBY
+  s.name        = 'bundler_wtf'
+  s.version     = '0.1.0'
+  s.summary     = 'wtf bundler'
+  s.description = 'lololololol'
+  s.required_ruby_version = '>= 1.8.7'
+
+  s.author            = 'John Hawthorn'
+  s.email             = 'john@stembolt.io'
+
+  s.files         = []
+  s.test_files    = []
+  s.require_path = 'lib'
+  s.requirements << 'none'
+
+  s.add_runtime_dependency 'solidus_backend', [">= 1.0", "< 3"]
+
+  s.add_development_dependency 'rspec-rails', '~> 3.4'
+  s.add_development_dependency 'rubocop', '~> 0.39.0'
+  s.add_development_dependency 'factory_girl_rails'
+  s.add_development_dependency 'pry'
+  s.add_development_dependency 'faker'
+  s.add_development_dependency 'sqlite3'
+end
