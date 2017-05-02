@@ -12,4 +12,4 @@ group :development, :test do
   gem "pry-rails"
 end
 
-gemspec
+gem 'rspec-rails', '~> 3.4'
