@@ -5,7 +5,4 @@ gem 'solidus_auth_devise'
 
 gem "rails-controller-testing", group: :test
 
-gem 'pg'
-gem 'mysql2'
-
 gem 'rspec-rails', '~> 3.4'
