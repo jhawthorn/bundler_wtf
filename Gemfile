@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "solidus", github: "solidusio/solidus"
+gem "solidus", '2.2.0'
 gem 'solidus_auth_devise'
 
 gem "rails-controller-testing", group: :test
